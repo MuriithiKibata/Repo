@@ -1,0 +1,22 @@
+.t1 {
+    position: relative;
+    top: 120px;
+    width: 100vw;
+    border-radius: 115px;
+    border-collapse: collapse;
+}
+
+.t2 {
+    
+    box-shadow: 0 0 0 1px aquamarine;
+    border-radius: 15px;
+
+}
+
+.t1 th {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: aquamarine;
+    color: white;
+    
+}

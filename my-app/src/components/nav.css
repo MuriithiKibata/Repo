@@ -1,0 +1,27 @@
+.divContainer {
+    height: 50px;
+    position: fixed; top: 0;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    z-index: 10;
+    
+    
+}
+
+ .h1 {
+    color: white;
+    font-size: 17px;
+    padding-left: 10px;
+    }
+
+    .h2 {
+        color: white;
+        padding-left: 20px;
+        font-size: 17px;
+}
+.h3 {
+    color: white;
+    padding-left: 20px;
+    font-size: 17px;
+}
