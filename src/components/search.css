@@ -1,0 +1,32 @@
+.sb {
+    position: relative; top: 70px;
+    width: 100vw;
+}
+ .sb input{
+    height: 30px;
+    position: relative; bottom:  10px;
+    box-shadow: 0 0 0 1px aquamarine;
+    border-radius: 15px;
+ }
+  
+ .img {
+    height: 30px;
+    
+ }
+  .btn {
+    box-shadow: 0 0 0 1px aquamarine;
+    border-radius: 20px;
+  }
+
+  .svg {
+    position: relative; top: 119px;
+    width: 100vw;
+    
+  }
+
+ .svg input {
+width: 400px;
+height: 30px;
+border-radius: 10px;
+box-shadow: black;
+  }

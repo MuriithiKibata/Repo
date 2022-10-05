@@ -1,0 +1,97 @@
+{
+    "stock": [
+      {
+        "id": 1,
+        "description": "Soda: 300ml",
+        "price": "40/=",
+        "quantity": "15pcs"
+      },
+          {
+        "id": 2,
+        "description": "Soda: 1.25l  ",
+        "price": "110/=",
+        "quantity": "10pcs"
+      },
+      {
+        "id": 3,
+        "description": "Soda: 2l",
+        "price": "180/=",
+        "quantity": "10pcs"
+      },
+      {
+        "id": 4,
+        "description": "brown bread",
+        "price": "5pcs",
+        "quantity": "10pcs"
+      },
+      {
+        "id": 5,
+        "description": "white bread",
+        "price": "50/=",
+        "quantity": "20pcs"
+      },
+      {
+        "id": 6,
+        "description": "KSL",
+        "price":"2/=",
+        "quantity": "200pcs"
+      },
+      {
+        "id": 7,
+        "description": "Lollipop: large",
+        "price": "20/=",
+        "quantity": "30pcs"
+      },
+      {
+        "id": 8,
+        "description": "Lollipop: small",
+        "price": "10/=",
+        "quantity": "40pcs"
+      },
+      {
+        "id": 9,
+        "description": "Milk: 500ml",
+        "price": "50/=",
+        "quantity": "20pcs"
+      },
+      {
+        "id": 10,
+        "description": "KDF",
+        "price": "10/=",
+        "quantity": "15pcs"
+      },
+      {
+        "id": 11,
+        "description": "Mandazi",
+        "price": "10/=",
+        "quantity": "17pcs"
+      },
+      {
+        "id": 12,
+        "description": "Wheat Flour",
+        "price": "190/=",
+        "quantity": "20pcs"
+      },
+      {
+        "id": 13,
+        "description": "Maize Flour",
+        "price": "200/=",
+        "quantity": "30pcs"
+        
+      },
+      {
+        "id": 14,
+        "description": "Baking Soda",
+        "price": "150/=",
+        "quantity": "10pcs"
+        
+      },
+      {
+        "id": 15,
+        "description": "Mara Moja",
+        "price": "100/=",
+        "quantity": "15pcs"
+        
+      }
+    ]
+}
