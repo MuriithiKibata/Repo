@@ -1,22 +1,55 @@
-.t1 {
+body{
+    background-color: #D2B48C;
+}
+
+.ta {
     position: relative;
     top: 120px;
     width: 100vw;
     border-radius: 115px;
-    border-collapse: collapse;
+    
+    
 }
 
-.t2 {
+.tb {
     
     box-shadow: 0 0 0 1px aquamarine;
     border-radius: 15px;
+    height: 100vh;
+    width: inherit;
 
 }
 
-.t1 th {
+.ta th {
     padding-top: 8px;
     padding-bottom: 8px;
     background-color: aquamarine;
     color: white;
+    border: 1px solid;
     
 }
+ .addbtn {
+    width: 30px;
+    height: 20px;
+    padding-right: px;
+    background-color: #7EC8E3;
+    border-radius: 6px;
+    text-align: center;
+ }
+ .delbtn {
+    background-color: brown;
+    border-radius: 4px;
+    box-shadow: none;
+    width: 70px;
+    height: 23px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    display: grid;
+ }
+
+ 
+ .tr {
+    text-align: center;
+ }

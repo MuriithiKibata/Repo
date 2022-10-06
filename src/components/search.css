@@ -30,3 +30,9 @@ height: 30px;
 border-radius: 10px;
 box-shadow: black;
   }
+
+  .xy {
+    height: 30px;
+    background-color: aquamarine;
+    border-radius: 4px;
+  }
