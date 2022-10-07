@@ -6,14 +6,14 @@ import {useEffect, useState} from "react"
 function StockContainer() {
 const [display, setDisplay]= useState()
   useEffect (()=>{
-    fetch("http://localhost:3000/stock")
+    fetch("https://muriithikibataapi.herokuapp.com/stock")
     .then(res => res.json())
     .then(setDisplay)
   },[])
 
   function handleDelete (id) {
     setDisplay(value => value.filter(val => id !== val.id))
-    fetch(`http://localhost:3000/stock/${id}`,{
+    fetch(`https://muriithikibataapi.herokuapp.com/stock/${id}`,{
       method: "DELETE"
     })
   }
