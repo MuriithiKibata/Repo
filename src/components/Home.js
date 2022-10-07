@@ -16,7 +16,7 @@ function Home() {
 <div className='div'>
         <img className='image' src={images.img} alt='Home img' />
         <div className='babyDiv'>
-          <h1 className='h0'>Welcome User 8715 to
+          <h1 id='h0'>Welcome User 8715 to
             Micro Stocks Manager by Muriithi Kibata</h1>
           <h4 className='h4'>Powered by ReactJS</h4>
         </div>
