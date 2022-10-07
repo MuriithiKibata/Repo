@@ -11,6 +11,8 @@ function About() {
         I've always said to myself if I can design one that is simple to use, reliable, and fast, I'm sure it would help many people, because, the hospital cannot be the only one struggling with the  issue. 
          There are things that aren't as good as I'd this project eg. the search feature isnt working as well as I'd like  to work,
         and I need to figure out how to make quantity and price increment and dreacrement because the way it is right now, its tedious to add anything. Other then that, I think this is a good start. </p> 
+    
+        https://damp-scrubland-10777.herokuapp.com/
     </div>
   )
 }
