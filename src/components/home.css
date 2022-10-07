@@ -1,35 +1,35 @@
-.div  {
+.div {
     /* position: absolute; width: 100px; height: 100px; */
     width: 100vw;
     height: 100vh;
     background-color: aquamarine;
-   }
-   
-   .div img {
+}
+
+.div img {
     width: inherit;
     height: inherit;
-    }
-    
-    .babyDiv {
-     background-color: black;
-     height: 290px;
-     width: 290px;
-     border-radius: 20px;
-     position: relative; bottom: 430px; left: 80px;
-     opacity: 1;
-    }
-    #h0{
-     font-family: fantasy;
-     color: white;
-   
-    }
-    .h4 {
-     color: white;
-     font-family: fantasy;
-    }
-    .babyDiv:hover {
-     background-color:grey ;
-     cursor: pointer;
-     transform: scale(1.03);
-     transition: all 1.5s ease;
-    }
+}
+
+.babyDiv {
+    background-color: black;
+    height: 290px;
+    width: 290px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 430px;
+    left: 80px;
+    opacity: 1;
+    font-family: fantasy;
+    color: white;
+    color: white;
+    font-family: fantasy;
+}
+
+
+
+.babyDiv:hover {
+    background-color: grey;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1.5s ease;
+}
