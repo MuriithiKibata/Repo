@@ -14,13 +14,13 @@ function StockItem( {data, handleDelete}) {
                     <h2>Quantity : pcs</h2>
                 </th>
                 <th>
-                    < h2 className='table'>Price ksh/=</h2>
+                    <h2 className='table'>Price ksh/=</h2>
                 </th>
                 <th>
                     <h2>Delete</h2>
                 </th>
             </tr>
-            {data && data.map(item => <StockList key ={item.id} item ={item} handleDelete = {handleDelete}/>)}
+            {data && data.map(item => {return  <StockList key ={item.id} item ={item} handleDelete = {handleDelete}/>})}
         </tbody>
     </table>
   )

@@ -1,6 +1,7 @@
 import React from 'react'
 import StockItem from './StockItem'
 import SearchBar from './SearchBar'
+import "./stockItem.css"
 import {useEffect, useState} from "react"
 function StockContainer() {
 const [display, setDisplay]= useState()

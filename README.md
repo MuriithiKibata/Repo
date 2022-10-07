@@ -1,104 +1,22 @@
-# Getting Started with Create React App
+STOCKS MANAGER PROJECT BY MURIITHI KIBATA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FILE STRUCTURE:
 
-## Available Scripts
+The home, navbar, and search components each have their own css files.
+However, stockitems, stockList and stocks have one css file(stockItems.css).
 
-In the project directory, you can run:
+The Stock component is where I fetched my data, I then passed that data to StockItems, and mapped it there. StockList was responsible for handling the rendering of the table rows.
 
-### `npm start`
+FUNCTIONALITY FEATURES:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The user can add items to the list and delete. Later on I'd like to add the feature of being able to increment and decrement quantities and price, and also maybe a separate page where the daily sales can be added.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+CHALLENGES:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+DAY 1: Getting my client-side routes to run was a bother. I actually had to start again beacause in an attempt to change the version of Router from 5.2 to 6, I messed the package.json file which stopped everything. Thank God I discovered that router 
+v6.1 is stable, and my TM also helped me get the Routes working.
 
-### `npm run build`
+ Day 2 : Deployed Heroku. For some reason the styling for my webpage broke and I have no clue how to fix that. Moreover, its not pushing to my github repo when I git push cause its pushing to Heroku so ive decided to remove heroku and use Netlify. Also for so reason map is malfunctioning.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-<!-- HTML !-->
-<button class="button-41" role="button">Button 41</button>
-
-/* CSS */
-.button-41 {
-  background-color: initial;
-  background-image: linear-gradient(-180deg, #00D775, #00BD68);
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
-  height: 44px;
-  line-height: 44px;
-  outline: 0;
-  overflow: hidden;
-  padding: 0 20px;
-  pointer-events: auto;
-  position: relative;
-  text-align: center;
-  touch-action: manipulation;
-  user-select: none;
-  -webkit-user-select: none;
-  vertical-align: top;
-  white-space: nowrap;
-  width: 100%;
-  z-index: 9;
-  border: 0;
-}
-
-.button-41:hover {
-  background: #00bd68;
-}
+ 

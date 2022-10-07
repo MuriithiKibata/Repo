@@ -9,7 +9,7 @@ function SearchBar({stuff, search}) {
     description: "",
     price: "",
     quantity: ""
-  })
+})
 function handleChange (e) {
   e.preventDefault()
 setAdd({...add, [e.target.name]: e.target.value})
